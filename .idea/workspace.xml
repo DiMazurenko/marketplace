@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update app">
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.js" beforeDir="false" />
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update styles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,9 @@
   <component name="JsBowerSettings">
     <bower-package value="" />
     <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -73,7 +77,8 @@
       <updated>1699943744298</updated>
       <workItem from="1699943748628" duration="6000" />
       <workItem from="1699943807121" duration="748000" />
-      <workItem from="1699954852309" duration="6073000" />
+      <workItem from="1699954852309" duration="7371000" />
+      <workItem from="1701863909678" duration="6632000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -91,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699955191637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add components">
+      <option name="closed" value="true" />
+      <created>1699973145938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699973145938</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update styles">
+      <option name="closed" value="true" />
+      <created>1699973158194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699973158194</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -104,6 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add app" />
     <MESSAGE value="update app" />
-    <option name="LAST_COMMIT_MESSAGE" value="update app" />
+    <MESSAGE value="add components" />
+    <MESSAGE value="update styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="update styles" />
   </component>
 </project>
