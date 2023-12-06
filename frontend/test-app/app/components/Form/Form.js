@@ -1,36 +1,49 @@
 'use client'
 
-import { useState } from 'react';
-import styles from './Form.module.css'
+import React from 'react';
+import { useForm } from 'react-hook-form';
 
-const SubscribeForm = () => {
-	const [name, setName] = useState('');
-	const [phone, setPhone] = useState('');
+const FeedbackForm = () => {
+	const { register, handleSubmit, formState: { errors } } = useForm();
 
-	const handleSubmit = (e) => {
-		e.preventDefault();
-		console.log('Подписка:', { name, phone });
+	const onSubmit = data => {
+		console.log(data);
+		// Обработка данных формы
 	};
 
 	return (
-		<form className={styles.form} onSubmit={handleSubmit}>
-			<input
-				type="text"
-				value={name}
-				onChange={(e) => setName(e.target.value)}
-				placeholder="Имя"
-				required
-			/>
-			<input
-				type="tel"
-				value={phone}
-				onChange={(e) => setPhone(e.target.value)}
-				placeholder="Телефон"
-				required
-			/>
-			<button type="submit">Подписаться</button>
+		<form onSubmit={handleSubmit(onSubmit)}>
+			<div>
+				<label htmlFor="name">Имя:</label>
+				<input
+					id="name"
+					{...register('name', { required: true })}
+				/>
+				{errors.name && <span>Это поле обязательно</span>}
+			</div>
+
+			<div>
+				<label htmlFor="email">Электронная почта:</label>
+				<input
+					id="email"
+					type="email"
+					{...register('email', { required: true })}
+				/>
+				{errors.email && <span>Это поле обязательно</span>}
+			</div>
+
+			<div>
+				<label htmlFor="message">Сообщение:</label>
+				<textarea
+					id="message"
+					{...register('message', { required: true })}
+				></textarea>
+				{errors.message && <span>Это поле обязательно</span>}
+			</div>
+
+			<button type="submit">Отправить</button>
 		</form>
 	);
 };
 
-export default SubscribeForm;
+export default FeedbackForm;
