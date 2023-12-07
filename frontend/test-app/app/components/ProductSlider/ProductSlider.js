@@ -13,18 +13,18 @@ const ProductSlider = ({ images }) => {
 	return (
 		<div>
 			<div className="product-main-image">
-				<img src={activeImage} alt={activeImage} />
+				<img src={activeImage} alt={activeImage} className="w-full h-auto object-cover object-center" />
 			</div>
 
 			<Swiper
 				modules={[Thumbs]}
 				watchSlidesProgress
 				slidesPerView={4}
-				className="product-thumbs-swiper"
+				className="product-thumbs-swiper mt-4"
 			>
 				{images.map((image, index) => (
-					<SwiperSlide key={index} onClick={() => setActiveImage(image)}>
-						<img src={image} alt={`Thumbnail ${index}`} />
+					<SwiperSlide key={index} onClick={() => setActiveImage(image)} className="cursor-pointer">
+						<img src={image} alt={`Thumbnail ${index}`} className="w-full h-full object-cover object-center" />
 					</SwiperSlide>
 				))}
 			</Swiper>

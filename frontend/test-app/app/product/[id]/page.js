@@ -12,11 +12,13 @@ const ProductDetail = ({params}) => {
 	];
 
 	return (
-		<section>
-			<h1>Детали товара {params.id}</h1>
+		<section className="container mx-auto px-4 py-8">
+			<h1 className="text-3xl font-bold mb-6">Детали товара {params.id}</h1>
 			<ProductSlider images={images}/>
-			<p>Описание товара</p>
-			<Link href={`/`}>Назад</Link>
+			<p className="my-6">Описание товара</p>
+			<Link className="text-indigo-600 hover:text-indigo-800" href={`/`}>
+				Назад
+			</Link>
 		</section>
 	);
 };
