@@ -3,7 +3,6 @@
 
 Icon
 .DS_Store
-.idea
 
 # Temporary files
 # ---------------
@@ -49,5 +48,3 @@ Icon
 # ---------------
 
 /site/config/.license
-
-/test_files

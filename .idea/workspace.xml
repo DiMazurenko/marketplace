@@ -4,11 +4,480 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update styles">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add product Slider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/css/styles-biography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/css/styles-management.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/css/styles-report-corruption.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/anticorruption.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/biography.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/decree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/government-measures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/implementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/js/report-corruption.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/assets/svg/sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/1_catalog/1_card-1/card-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/1_catalog/1_card-1/card.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/1_catalog/2_card-2/card-2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/1_catalog/2_card-2/card.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/1_catalog/catalog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/2_contact/contact.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/error/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/error/error.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/home/home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/home/home.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/site.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/site.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/aliases.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/aliases.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/collections.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/collections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/FileBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/FileBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/FileVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/FileVersion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/Language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/PageBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/PageBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/Site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/SiteBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/SiteBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/System.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/Translation.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/Translation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/models/UserBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/models/UserBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/routes/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/routes/files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/routes/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/routes/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/api/routes/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/api/routes/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/account/dialogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/account/dialogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/account/views.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/account/views.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/files/dialogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/files/dialogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/languages.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/languages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/languages/dialogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/languages/dialogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/languages/views.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/languages/views.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/site/dialogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/site/dialogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/site/dropdowns.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/site/dropdowns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/site/searches.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/site/searches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/system/dialogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/system/dialogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/system/views.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/system/views.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/users/dialogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/users/dialogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/users/searches.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/users/searches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/areas/users/views.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/areas/users/views.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blocks/gallery/gallery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/blocks/gallery/gallery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blocks/heading/heading.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/blocks/heading/heading.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blocks/image/image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/blocks/image/image.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/code.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/heading.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/image.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/quote.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/text.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/blocks/video.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/files/default.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/pages/default.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/blueprints/site.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/components.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/components.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/headline.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/headline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/hidden.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/hidden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/mixins/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/mixins/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/mixins/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/mixins/options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/mixins/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/mixins/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/multiselect.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/multiselect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/number.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/number.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/object.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/structure.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/structure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/fields/writer.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/fields/writer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/methods.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/methods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/sections/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/sections/files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/sections/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/sections/info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/sections/mixins/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/sections/mixins/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/sections/mixins/sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/sections/mixins/sort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/sections/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/sections/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/sections/stats.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/sections/stats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/config/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/config/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/rules/rm.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/da.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/el.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/eo.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/eo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/es_419.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/es_419.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/es_ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/id.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/id.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/is_IS.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/is_IS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/it.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/pt_BR.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/pt_BR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/pt_PT.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/pt_PT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/sv_SE.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/sv_SE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/i18n/translations/tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/i18n/translations/tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/cypress.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/img/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/panel/dist/img/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/panel/dist/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/js/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/panel/dist/js/vuedraggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Api/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Api/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Api/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Api/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Api/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Api/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Extension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/Node.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeI18n.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeI18n.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeIcon.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeIcon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeProperty.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeProperty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeString.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeString.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeText.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Blueprint/NodeText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/AppCaches.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/AppCaches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/AppErrors.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/AppErrors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/AppPlugins.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/AppPlugins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/AppTranslations.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/AppTranslations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/AppUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/AppUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth/Challenge.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth/Challenge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth/EmailChallenge.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth/EmailChallenge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth/Status.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Auth/Status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Block.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/BlockConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/BlockConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Blocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Blueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Blueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Collections.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Collections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/ContentLock.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/ContentLock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/ContentLocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/ContentLocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/ContentTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Field.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Fieldset.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Fieldset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Fieldsets.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Fieldsets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FileActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FileActions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FileBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FileBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FileModifications.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FileModifications.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FilePermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FilePermissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FilePicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FilePicker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FileRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FileRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/FileVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/FileVersion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Find.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Find.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/HasChildren.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/HasChildren.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/HasFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/HasFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/HasMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/HasMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/HasSiblings.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/HasSiblings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Ingredients.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Ingredients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Items.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/LanguageRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/LanguageRouter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/LanguageRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/LanguageRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/LanguageRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/LanguageRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Languages.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Languages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/LayoutColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/LayoutColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/LayoutColumns.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/LayoutColumns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Layouts.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Layouts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/ModelPermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/ModelPermissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/ModelWithContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/ModelWithContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Nest.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Nest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/NestObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/NestObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PageActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PageActions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PageBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PageBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PagePermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PagePermissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PagePicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PagePicker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PageRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PageRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PageSiblings.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PageSiblings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Permissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Permissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Picker.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Picker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/PluginAssets.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/PluginAssets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/R.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/R.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Responder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Responder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/S.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/S.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/SiteActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/SiteActions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/SiteBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/SiteBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/SitePermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/SitePermissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/SiteRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/SiteRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Structure.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Structure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/StructureObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/StructureObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/System.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/System/UpdateStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/System/UpdateStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Translation.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Translation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/UserActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/UserActions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/UserBlueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/UserBlueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/UserPermissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/UserPermissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/UserPicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/UserPicker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/UserRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/UserRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Cms/Visitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Cms/Visitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Data/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Data/Data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Data/Txt.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Data/Txt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Database/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Database/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Database/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Database/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Database/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Database/Sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Email/Body.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Email/Body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Email/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Email/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/BadMethodCallException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/BadMethodCallException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/DuplicateException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/DuplicateException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/ErrorPageException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/ErrorPageException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/LogicException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/LogicException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/NotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Exception/PermissionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Exception/PermissionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Asset.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Asset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Dir.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Dir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/F.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/F.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Filename.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Filename.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/IsFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/IsFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Mime.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Filesystem/Mime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Field.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Field.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Field/BlocksField.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Field/BlocksField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Field/LayoutField.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Field/LayoutField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/FieldClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/FieldClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Fields.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Mixin/EmptyState.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Mixin/EmptyState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Mixin/Max.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Mixin/Max.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Mixin/Min.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Mixin/Min.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/OptionsApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/OptionsQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Form/Validations.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Form/Validations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Environment.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Environment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Params.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Remote.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Remote.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Request/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Request/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Request/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Request/Data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Uri.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Uri.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Http/Visitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Http/Visitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Camera.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Camera.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Darkroom.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Darkroom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Darkroom/GdLib.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Darkroom/GdLib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Darkroom/ImageMagick.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Darkroom/ImageMagick.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Dimensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Dimensions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Exif.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Exif.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Image/Location.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Image/Location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Option/OptionsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Option/OptionsApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Option/OptionsQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Option/OptionsQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Dialog.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Dialog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Document.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Dropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Dropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Field.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Field.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Json.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/Site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Panel/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Panel/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Parsley/Element.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Parsley/Element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Parsley/Inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Parsley/Inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Parsley/Parsley.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Parsley/Parsley.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Parsley/Schema/Blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Parsley/Schema/Blocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Query/Argument.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Query/Argument.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Query/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Query/Expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Query/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Query/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Query/Segment.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Query/Segment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Query/Segments.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Query/Segments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/DomHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/DomHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/Sane.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/Sane.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/Svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/Svg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/Svgz.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/Svgz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Sane/Xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Sane/Xml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Session/AutoSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Session/AutoSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Session/FileSessionStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Session/FileSessionStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Session/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Session/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Session/SessionData.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Session/SessionData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Session/SessionStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Session/SessionStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Session/Sessions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Session/Sessions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Template/Slots.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Template/Slots.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Template/Snippet.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Template/Snippet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Template/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Template/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Text/KirbyTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Text/KirbyTag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/A.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/A.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Component.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Component.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Dom.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Dom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/I18n.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/I18n.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Iterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Iterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Locale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Obj.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Obj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Properties.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Properties.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Silo.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Silo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/V.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/V.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Toolkit/Xml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/BlockUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/BlockUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/FieldUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/FieldUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/FileUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/FileUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/HasUuids.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/HasUuids.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/ModelUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/ModelUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/PageUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/PageUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/SiteUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/SiteUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/StructureUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/StructureUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/UserUuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/UserUuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/src/Uuid/Uuid.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/src/Uuid/Uuid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/bin/yaml-lint" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/bin/yaml-lint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/bin/yaml-lint.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/semver/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/semver/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/composer/semver/src/VersionParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/composer/semver/src/VersionParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/laminas/laminas-escaper/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/laminas/laminas-escaper/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/laminas/laminas-escaper/src/Escaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/laminas/laminas-escaper/src/Escaper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/DSNConfigurator.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/DSNConfigurator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/deprecation-contracts/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/deprecation-contracts/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/deprecation-contracts/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/deprecation-contracts/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/deprecation-contracts/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/deprecation-contracts/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-ctype/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-ctype/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/Idn.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/Idn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/Resources/unidata/DisallowedRanges.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/Resources/unidata/DisallowedRanges.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/Resources/unidata/Regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/Resources/unidata/Regex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-idn/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-normalizer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-normalizer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-normalizer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-intl-normalizer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/Mbstring.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/bootstrap80.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/bootstrap80.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Command/LintCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Command/LintCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Dumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Dumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Exception/ParseException.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Exception/ParseException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Tag/TaggedValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Tag/TaggedValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Unescaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Unescaper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/Yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/vendor/symfony/yaml/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/kirby/views/panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kirby/views/panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/card.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/catalog.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/blueprints/pages/default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/controllers/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/head.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/sitemap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/card.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/catalog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/emails/email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/FAQAccordion/FAQAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/FAQAccordion/FAQAccordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/ProductCard/ProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/ProductCard/ProductCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/ProductSlider/ProductSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/ProductSlider/ProductSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/page.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/test-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/test-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/package.json" afterDir="false" />
@@ -78,7 +547,8 @@
       <workItem from="1699943748628" duration="6000" />
       <workItem from="1699943807121" duration="748000" />
       <workItem from="1699954852309" duration="7371000" />
-      <workItem from="1701863909678" duration="6632000" />
+      <workItem from="1701863909678" duration="7667000" />
+      <workItem from="1701949362332" duration="2305000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -112,7 +582,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699973158194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Form">
+      <option name="closed" value="true" />
+      <created>1701873383865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873383865</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Accordion">
+      <option name="closed" value="true" />
+      <created>1701873406860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873406860</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add main Slider">
+      <option name="closed" value="true" />
+      <created>1701873425735</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873425735</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add product Slider">
+      <option name="closed" value="true" />
+      <created>1701873441814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873441814</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -127,6 +629,10 @@
     <MESSAGE value="update app" />
     <MESSAGE value="add components" />
     <MESSAGE value="update styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="update styles" />
+    <MESSAGE value="add Form" />
+    <MESSAGE value="add Accordion" />
+    <MESSAGE value="add main Slider" />
+    <MESSAGE value="add product Slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="add product Slider" />
   </component>
 </project>
