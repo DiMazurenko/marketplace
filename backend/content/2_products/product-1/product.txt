@@ -1,0 +1,5 @@
+Title: Товар 1
+----
+Description: Описание 1
+----
+ImageUrl: /path/to/image1.jpg
