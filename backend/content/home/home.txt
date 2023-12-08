@@ -1,1 +1,9 @@
-Title: Home
+Title: HomeTitle: Главная страница
+
+----
+
+Sliderimages: url_to_first_image.jpg, url_to_second_image.jpg, url_to_third_image.jpg
+
+----
+
+Uuid: 05GmKUgxpV8hpRhA

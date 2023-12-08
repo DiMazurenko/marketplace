@@ -1,0 +1,8 @@
+title: Главная страница
+fields:
+  title:
+    label: Заголовок
+    type: text
+  SliderImages:
+    label: Изображения для слайдера
+    type: textarea
