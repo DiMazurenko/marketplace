@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update kirby">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update backend home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/1_home/home.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/2_products/product-1/product.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/2_products/product-2/product.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/2_products/product-3/product.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/2_products/products.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/3_contact/contact.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/content/error/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/error/error.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/content/home/home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/home/home.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/content/site.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/site.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/blueprints/pages/default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/home.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/product.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/products.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/plugins/methods/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/plugins/myapi/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/snippets/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/snippets/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/snippets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/product.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +99,10 @@
       <workItem from="1702035236668" duration="577000" />
       <workItem from="1702036185643" duration="226000" />
       <workItem from="1702037354154" duration="38000" />
+      <workItem from="1702045514554" duration="84000" />
+      <workItem from="1702045625663" duration="17000" />
+      <workItem from="1702294884346" duration="172000" />
+      <workItem from="1702295076118" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -161,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701961246008</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update backend product">
+      <option name="closed" value="true" />
+      <created>1702045577491</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702045577491</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update backend home">
+      <option name="closed" value="true" />
+      <created>1702045589676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702045589676</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -182,6 +221,8 @@
     <MESSAGE value="add product Slider" />
     <MESSAGE value="add styles" />
     <MESSAGE value="update kirby" />
-    <option name="LAST_COMMIT_MESSAGE" value="update kirby" />
+    <MESSAGE value="update backend product" />
+    <MESSAGE value="update backend home" />
+    <option name="LAST_COMMIT_MESSAGE" value="update backend home" />
   </component>
 </project>
