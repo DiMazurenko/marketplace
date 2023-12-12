@@ -1,71 +1,73 @@
-<?php snippet('head') ?>
+<?php
 
-<body>
-	<?php snippet('header') ?>
+use Kirby\Toolkit\Str;
 
-	<main class="wrapper__main main">
+if ($page->features()->isNotEmpty()) {
+  $featuresObject = $page->features()->toObject();
+  $features = [
+    'title' => $featuresObject->caption()->value(),
+    'type' => $featuresObject->typeOfContent()->value(),
+  ];
 
+  if ($features['type'] === 'slides') {
+    foreach ($featuresObject->slides()->toStructure() as $slide) {
+      $features['slides'][] = [
+        'id' => Str::uuid(),
+        'title' => $slide->title()->value(),
+        'caption' => $slide->caption()->value(),
+        'image' => ($image = $slide->image()->toFile()) ? $image->url() : false
+      ];
+    }
+  }
 
-		<nav class="mobile-back ttu">
-			<a href="management.html" class="mobile-back__link">
-				<svg class="mobile-back__icon" width="24" height="24" viewBox="0 0 24 24">
-					<use xlink:href="#icon-chevron" />
-				</svg>
-
-				<span class="mobile-back__span">назад</span>
-			</a>
-		</nav>
-
-		<div data-anim="fade-up" data-anim-value="50">
-
-
-			<section class="biography-card">
-				<div class="biography-card__header">
-					<div class="biography-card__img">
-						<?= $page->image() ?>
-					</div>
-					<div class="biography-card__description">
-						<h1 class="h1 biography-card__name"><?= $page->name() ?></h1>
-						<p class="p1 biography-card__job"><?= $page->purpose() ?></p>
-					</div>
-				</div>
-				<button class="biography-card__title" data-accordion="accordion-bio">
-					<span class="h3">Описание</span>
-					<svg class="biography-card__icon">
-						<use xlink:href="#icon-accordion-arrow" />
-					</svg>
-
-				</button>
-				<div class="biography-card__panel" data-panel="accordion-bio">
-					<p class="biography-card__text"><?= $page->specification() ?></p>
-
-				</div>
-				<button class="biography-card__title" data-accordion="accordion-honor">
-					<span class="h3">Характеристики</span>
-					<svg class="biography-card__icon">
-						<use xlink:href="#icon-accordion-arrow" />
-					</svg>
-
-				</button>
-				<div class="biography-card__panel" data-panel="accordion-honor">
-					<p class="biography-card__text"><?= $page->property() ?></p>
-				</div>
-				<button class="biography-card__title" data-accordion="accordion-activity">
-					<span class="h3">Доставка</span>
-					<svg class="biography-card__icon">
-						<use xlink:href="#icon-accordion-arrow" />
-					</svg>
-
-				</button>
-				<div class="biography-card__panel" data-panel="accordion-activity">
-					<p class="biography-card__text"><?= $page->delivery() ?></p>
-				</div>
-			</section>
-		</div>
-	</main>
-	</div>
+  if ($features['type'] === 'video' && ($video = $page->features()->toObject()->video()->toFile())) {;
+    $features['video'] = $video->url();
+  }
+}
 
 
-	<?php snippet('sitemap') ?>
+if ($page->overview()->isNotEmpty()) {
+  $overview = [
+    'title' => $page->overview()->toObject()->caption()->value(),
+    'images' => []
+  ];
 
-	<?php snippet('footer') ?>
+  foreach ($page->overview()->toObject()->images()->toFiles() as $image) {
+    $overview['images'][] = $image->url();
+  }
+}
+
+if ($page->cases()->isNotEmpty()) {
+  $casesObject = $page->cases()->toObject();
+  $cases = [
+    'title' => $casesObject->caption()->value(),
+    'items' => []
+  ];
+
+  foreach ($casesObject->items()->toStructure() as $item) {
+    $cases['items'][] = [
+      'title' => $item->title()->value(),
+      'subline' => $item->subline()->value(),
+      'link' => $item->link()->toUrl(),
+      'tags' => $item->tags()->split(',')
+    ];
+  }
+}
+
+
+
+$data = [
+  'footer' => $site->getFooter(),
+  'meta' => $page->getMeta(),
+  'title' => $page->title()->value(),
+  'form' => $page->getFormParams(),
+  'caption' => $page->caption()->value(),
+  'cover' => ($img = $page->cover()->toFile()) ? $img->url() : false,
+  'category' => $page->category()->value(),
+  'overview' => $overview ?? null,
+  'features' => $features ?? null,
+  'cases' => $cases ?? null
+];
+
+$kirby->response()->json();
+echo json_encode($data);

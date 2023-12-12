@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update backend home">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/1_home/home.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/2_products/product-1/product.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/2_products/product-2/product.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/2_products/product-3/product.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/2_products/products.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/3_contact/contact.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/error/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/error/error.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/home/home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/home/home.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/content/site.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/content/site.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/blueprints/pages/default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/home.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/product.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/blueprints/pages/products.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/plugins/methods/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/plugins/myapi/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/snippets/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/snippets/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/snippets/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/snippets/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/snippets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/templates/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/templates/product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/card.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/site/templates/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/FAQAccordion/FAQAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/FAQAccordion/FAQAccordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +88,8 @@
       <workItem from="1702045625663" duration="17000" />
       <workItem from="1702294884346" duration="172000" />
       <workItem from="1702295076118" duration="262000" />
+      <workItem from="1702305597943" duration="115000" />
+      <workItem from="1702382816938" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -200,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702045589676</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update app">
+      <option name="closed" value="true" />
+      <created>1702305622144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702305622144</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -212,7 +207,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add app" />
-    <MESSAGE value="update app" />
     <MESSAGE value="add components" />
     <MESSAGE value="update styles" />
     <MESSAGE value="add Form" />
@@ -223,6 +217,7 @@
     <MESSAGE value="update kirby" />
     <MESSAGE value="update backend product" />
     <MESSAGE value="update backend home" />
-    <option name="LAST_COMMIT_MESSAGE" value="update backend home" />
+    <MESSAGE value="update app" />
+    <option name="LAST_COMMIT_MESSAGE" value="update app" />
   </component>
 </project>
