@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update app">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/templates/card.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/card.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/templates/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/catalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/site/templates/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/site/templates/faq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/components/FAQAccordion/FAQAccordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/components/FAQAccordion/FAQAccordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/test-app/app/product/[id]/page.js" afterDir="false" />
-    </list>
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +82,7 @@
       <workItem from="1702295076118" duration="262000" />
       <workItem from="1702305597943" duration="115000" />
       <workItem from="1702382816938" duration="1459000" />
+      <workItem from="1708435770007" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
