@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update Navbar">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add Cart">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1708524380908" duration="2698000" />
       <workItem from="1708592028770" duration="3708000" />
       <workItem from="1708610365265" duration="19000" />
-      <workItem from="1708947040031" duration="4935000" />
+      <workItem from="1708947040031" duration="8130000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -273,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708948613511</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add Cart">
+      <option name="closed" value="true" />
+      <created>1708952547617</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708952547617</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -304,6 +311,7 @@
     <MESSAGE value="update NavItem" />
     <MESSAGE value="add useOnClickOutside hook" />
     <MESSAGE value="update Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Navbar" />
+    <MESSAGE value="add Cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Cart" />
   </component>
 </project>
