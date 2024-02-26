@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add Navbar">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add useOnClickOutside hook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +98,9 @@
       <workItem from="1708438930484" duration="2325000" />
       <workItem from="1708505437874" duration="7478000" />
       <workItem from="1708524380908" duration="2698000" />
+      <workItem from="1708592028770" duration="3708000" />
+      <workItem from="1708610365265" duration="19000" />
+      <workItem from="1708947040031" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -243,7 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708526711043</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update NavItem">
+      <option name="closed" value="true" />
+      <created>1708594822788</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594822788</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add useOnClickOutside hook">
+      <option name="closed" value="true" />
+      <created>1708596075024</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708596075024</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -271,6 +290,8 @@
     <MESSAGE value="add Main Page" />
     <MESSAGE value="add public assets" />
     <MESSAGE value="add Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Navbar" />
+    <MESSAGE value="update NavItem" />
+    <MESSAGE value="add useOnClickOutside hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="add useOnClickOutside hook" />
   </component>
 </project>
