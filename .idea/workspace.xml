@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add express server with payload">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add payload config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1708592028770" duration="3708000" />
       <workItem from="1708610365265" duration="19000" />
       <workItem from="1708947040031" duration="8350000" />
-      <workItem from="1709033475605" duration="3706000" />
+      <workItem from="1709033475605" duration="5088000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -289,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708955777869</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add payload config">
+      <option name="closed" value="true" />
+      <created>1709037632812</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709037632812</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -322,6 +327,7 @@
     <MESSAGE value="update Navbar" />
     <MESSAGE value="add Cart" />
     <MESSAGE value="add express server with payload" />
-    <option name="LAST_COMMIT_MESSAGE" value="add express server with payload" />
+    <MESSAGE value="add payload config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add payload config" />
   </component>
 </project>
