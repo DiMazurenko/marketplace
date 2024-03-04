@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add sign-up page" />
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update sign-up form" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +99,7 @@
       <workItem from="1708610365265" duration="19000" />
       <workItem from="1708947040031" duration="8350000" />
       <workItem from="1709033475605" duration="5323000" />
+      <workItem from="1709122339809" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -300,7 +301,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709040313332</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add sign-up form">
+      <option name="closed" value="true" />
+      <created>1709126891697</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709126891697</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update sign-up form">
+      <option name="closed" value="true" />
+      <created>1709128377292</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1709128377292</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -311,7 +328,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add app" />
     <MESSAGE value="add components" />
     <MESSAGE value="update styles" />
     <MESSAGE value="add Form" />
@@ -335,6 +351,8 @@
     <MESSAGE value="add express server with payload" />
     <MESSAGE value="add payload config" />
     <MESSAGE value="add sign-up page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sign-up page" />
+    <MESSAGE value="add sign-up form" />
+    <MESSAGE value="update sign-up form" />
+    <option name="LAST_COMMIT_MESSAGE" value="update sign-up form" />
   </component>
 </project>
