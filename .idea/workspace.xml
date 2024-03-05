@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update sign-up form" />
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add collections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/auth-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/auth-router.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +105,8 @@
       <workItem from="1708947040031" duration="8350000" />
       <workItem from="1709033475605" duration="5323000" />
       <workItem from="1709122339809" duration="5682000" />
+      <workItem from="1709550783715" duration="8566000" />
+      <workItem from="1709646869626" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -317,7 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709128377292</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add tRPC">
+      <option name="closed" value="true" />
+      <created>1709559695988</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1709559695988</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add collections">
+      <option name="closed" value="true" />
+      <created>1709563249731</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1709563249731</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -328,8 +351,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add components" />
-    <MESSAGE value="update styles" />
     <MESSAGE value="add Form" />
     <MESSAGE value="add Accordion" />
     <MESSAGE value="add main Slider" />
@@ -353,6 +374,8 @@
     <MESSAGE value="add sign-up page" />
     <MESSAGE value="add sign-up form" />
     <MESSAGE value="update sign-up form" />
-    <option name="LAST_COMMIT_MESSAGE" value="update sign-up form" />
+    <MESSAGE value="add tRPC" />
+    <MESSAGE value="add collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="add collections" />
   </component>
 </project>
