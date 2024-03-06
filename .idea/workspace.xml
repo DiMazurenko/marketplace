@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add collections">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update auth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trpc/auth-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/auth-router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1709033475605" duration="5323000" />
       <workItem from="1709122339809" duration="5682000" />
       <workItem from="1709550783715" duration="8566000" />
-      <workItem from="1709646869626" duration="645000" />
+      <workItem from="1709646869626" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -340,7 +337,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709563249731</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add generate types">
+      <option name="closed" value="true" />
+      <created>1709647955102</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647955102</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update auth">
+      <option name="closed" value="true" />
+      <created>1709647965933</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647965933</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -351,8 +364,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Form" />
-    <MESSAGE value="add Accordion" />
     <MESSAGE value="add main Slider" />
     <MESSAGE value="add product Slider" />
     <MESSAGE value="add styles" />
@@ -376,6 +387,8 @@
     <MESSAGE value="update sign-up form" />
     <MESSAGE value="add tRPC" />
     <MESSAGE value="add collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="add collections" />
+    <MESSAGE value="add generate types" />
+    <MESSAGE value="update auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="update auth" />
   </component>
 </project>
