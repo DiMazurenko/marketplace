@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update verify mail sent">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update sign up errors handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VerifyEmail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VerifyEmail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/trpc/[trpc]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/trpc/[trpc]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/auth-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/auth-router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/trpc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/trpc.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.19.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.19.17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/dimazurenko/Projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/dimazurenko/.nvm/versions/node/v18.19.1/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\dimazurenko\\Projects\\marketplace\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.csv.formats&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\dimazurenko\\Projects\\marketplace\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "18.19.1",
+    "javascript.nodejs.core.library.typings.version": "18.19.17",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/dimazurenko/Projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Ubuntu@/home/dimazurenko/.nvm/versions/node/v18.19.1/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu\\home\\dimazurenko\\Projects\\marketplace\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "ts.external.directory.path": "\\\\wsl$\\Ubuntu\\home\\dimazurenko\\Projects\\marketplace\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -124,7 +126,7 @@
       <workItem from="1709805012135" duration="630000" />
       <workItem from="1709814438585" duration="5233000" />
       <workItem from="1709819743598" duration="218000" />
-      <workItem from="1710157907592" duration="686000" />
+      <workItem from="1710157907592" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -406,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709819903934</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update sign up errors handler">
+      <option name="closed" value="true" />
+      <created>1710158987902</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710158987902</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -417,7 +427,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update backend product" />
     <MESSAGE value="update backend home" />
     <MESSAGE value="update app" />
     <MESSAGE value="delete app" />
@@ -442,6 +451,7 @@
     <MESSAGE value="add verify-email page" />
     <MESSAGE value="update verify-email page" />
     <MESSAGE value="update verify mail sent" />
-    <option name="LAST_COMMIT_MESSAGE" value="update verify mail sent" />
+    <MESSAGE value="update sign up errors handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="update sign up errors handler" />
   </component>
 </project>
