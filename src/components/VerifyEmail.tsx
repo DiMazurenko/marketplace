@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { trpc } from "@/trpc/client";
-import { Loader2, XCircle } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
+import { trpc } from '@/trpc/client';
+import { Loader2, XCircle } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { buttonVariants } from '@/components/ui/button';
 
 interface VerifyEmailProps {
   token: string;
@@ -37,7 +37,7 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
         <p className="text-muted-foreground text-center mt-1">
           Thank you for verifying your email.
         </p>
-        <Link className={buttonVariants({ className: "mt-4" })} href="/sign-in">
+        <Link className={buttonVariants({ className: 'mt-4' })} href="/sign-in">
           Sign in
         </Link>
       </div>
