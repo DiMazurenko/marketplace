@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add sign in page">
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add get user util">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +127,7 @@
       <workItem from="1709814438585" duration="5233000" />
       <workItem from="1709819743598" duration="218000" />
       <workItem from="1710157907592" duration="4638000" />
-      <workItem from="1710245075381" duration="598000" />
+      <workItem from="1710245075381" duration="3772000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -430,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710162450543</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add get user util">
+      <option name="closed" value="true" />
+      <created>1710245852306</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1710245852306</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -441,7 +452,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="delete app" />
     <MESSAGE value="init app" />
     <MESSAGE value="add Main Page" />
     <MESSAGE value="add public assets" />
@@ -466,6 +476,7 @@
     <MESSAGE value="update sign up errors handler" />
     <MESSAGE value="update api sign in" />
     <MESSAGE value="add sign in page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sign in page" />
+    <MESSAGE value="add get user util" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get user util" />
   </component>
 </project>
