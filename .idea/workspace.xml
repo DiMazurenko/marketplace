@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="add get user util">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="183c6314-43fa-47b8-914a-72906f053930" name="Changes" comment="update Navbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +121,7 @@
       <workItem from="1709814438585" duration="5233000" />
       <workItem from="1709819743598" duration="218000" />
       <workItem from="1710157907592" duration="4638000" />
-      <workItem from="1710245075381" duration="3772000" />
+      <workItem from="1710245075381" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="add app">
       <option name="closed" value="true" />
@@ -441,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710245852306</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update Navbar">
+      <option name="closed" value="true" />
+      <created>1710248941163</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710248941163</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -458,7 +460,6 @@
     <MESSAGE value="add Navbar" />
     <MESSAGE value="update NavItem" />
     <MESSAGE value="add useOnClickOutside hook" />
-    <MESSAGE value="update Navbar" />
     <MESSAGE value="add Cart" />
     <MESSAGE value="add express server with payload" />
     <MESSAGE value="add payload config" />
@@ -477,6 +478,7 @@
     <MESSAGE value="update api sign in" />
     <MESSAGE value="add sign in page" />
     <MESSAGE value="add get user util" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get user util" />
+    <MESSAGE value="update Navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Navbar" />
   </component>
 </project>
